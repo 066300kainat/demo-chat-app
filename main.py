@@ -15,7 +15,8 @@ from src.labs.L2_1_web_search_tool import web_search_tool
 
 def run(): 
     #asyncio.run(async_chat())
-    web_search_tool("example query")
+    #syncio.run(sync_chat())
+       web_search_tool()
 
 if __name__ == '__main__': 
     run()
